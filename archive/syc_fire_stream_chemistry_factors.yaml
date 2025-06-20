@@ -1,0 +1,50 @@
+|
+  - attribute:
+      attributeName: Site
+      levels:
+      - code: BMW
+        definition: 'Below Mesquite Wash'
+      - code: CC
+        definition: Camp
+      - code: IS
+        definition: Indian Springs 
+      - code: MW
+        definition: 'Mesquite Wash'
+      - code: NS
+        definition: 'North Sycamore'
+      - code: RC
+        definition: 'Rock Creek'
+      - code: RV
+        definition: 'Round Valley'
+      - code: SS
+        definition: 'SS Ranch'
+      - code: UPSS
+        definition: 'Above SS'
+  - attribute:
+      attributeName: burn
+      levels:
+      - code: burned
+        definition: 'fire within the contributing area'
+      - code: unburned
+        definition: 'no fire in contributing area'
+  - attribute:
+      attributeName: trib_main
+      levels:
+      - code: mainstem
+        definition: mainstem 
+      - code: tributary
+        definition: tributary 
+  - attribute:
+      attributeName: Type
+      levels:
+      - code: GRAB
+        definition: 'manual grab sample'
+      - code: ISCO
+        definition: autosampler 
+  - attribute:
+      attributeName: Stage
+      levels:
+      - code: baseflow
+        definition: baseflow
+      - code: flood
+        definition: flood

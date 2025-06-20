@@ -1,0 +1,12 @@
+- name: MilliGM-PER-L
+  description: Milligram Per Liter
+- name: MicroMOL
+  description: Micromole
+- name: MicroGM-PER-L
+  description: Microgram Per Liter
+- name: KiloM2
+  description: ''
+- name: DEG
+  description: Degree
+- name: MilliM
+  description: Millimeter
