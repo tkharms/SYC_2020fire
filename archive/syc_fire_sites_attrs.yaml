@@ -1,0 +1,82 @@
+|
+  abbreviation:
+    attributeName: abbreviation
+    attributeDefinition: 'sampling location abbreviation'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    columnClasses: character
+    definition: ''
+  site_name:
+    attributeName: site_name
+    attributeDefinition: 'sampling location full name'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    columnClasses: character
+    definition: ''
+  latitude:
+    attributeName: latitude
+    attributeDefinition: 'monitoring location latitude'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    unit: 'DEG'
+    numberType: real
+    minimum: 33.728768
+    maximum: 33.867399
+    columnClasses: numeric
+  longitude:
+    attributeName: longitude
+    attributeDefinition: 'monitoring location longitude'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    unit: 'DEG'
+    numberType: real
+    minimum: -111.519353
+    maximum: -111.46624
+    columnClasses: numeric
+  description:
+    attributeName: description
+    attributeDefinition: 'sampling location description'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    columnClasses: character
+    definition: ''
+  sensors_measurements:
+    attributeName: sensors_measurements
+    attributeDefinition: 'sampling approaches employed at sampling location'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    columnClasses: character
+    definition: ''
+  comments:
+    attributeName: comments
+    attributeDefinition: 'comments regarding location or sampling details'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    columnClasses: character
+    definition: ''
+  area_km2:
+    attributeName: area_km2
+    attributeDefinition: 'area of the catchment'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    unit: 'KiloM2'
+    numberType: real
+    minimum: 0.000154
+    maximum: 384.8483035
+    columnClasses: numeric

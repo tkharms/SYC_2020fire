@@ -1,0 +1,31 @@
+|
+  site_name:
+    attributeName: site_name
+    attributeDefinition: 'sampling station'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    columnClasses: character
+    definition: ''
+  datetime:
+    attributeName: datetime
+    attributeDefinition: 'date and time of observation'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    columnClasses: Date
+    formatString: YYYY-MM-DD
+  level:
+    attributeName: level
+    attributeDefinition: 'water level'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    unit: 'MilliM'
+    numberType: real
+    minimum: 0.0
+    maximum: 6527.9
+    columnClasses: numeric
