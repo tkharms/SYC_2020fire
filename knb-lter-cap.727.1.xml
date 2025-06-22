@@ -48,7 +48,7 @@
       <electronicMailAddress>tharms@ucr.edu</electronicMailAddress>
       <userId directory="https://orcid.org">0000-0001-7845-1109</userId>
     </metadataProvider>
-    <pubDate>2025-06-19</pubDate>
+    <pubDate>2025-06-21</pubDate>
     <language>english</language>
     <abstract>
       <markdown>
@@ -1087,6 +1087,670 @@ Water was collected by autosamplers during storms and manually during baseflow. 
       </attributeList>
       <numberOfRecords>63795</numberOfRecords>
     </dataTable>
+    <dataTable id="727_ash_leachate_lability.csv">
+      <entityName>727_ash_leachate_lability.csv</entityName>
+      <entityDescription>lability of dissolved organic carbon leached from ash collected within the watershed of Sycamore Creek in central Arizona (USA)</entityDescription>
+      <physical>
+        <objectName>727_ash_leachate_lability.csv</objectName>
+        <size unit="bytes">1756</size>
+        <authentication method="MD5">73613e0f5140fffb9175f41b91a7f65f</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://gios-data.s3.us-west-2.amazonaws.com/datasets/cap/727_ash_leachate_lability.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="73613e0f5140fffb9175f41b91a7f65f_1">
+          <attributeName>site</attributeName>
+          <attributeDefinition>sampling station</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>PC</code>
+                    <definition>metadata_not_provided</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RV</code>
+                    <definition>Round Valley</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RV_SS</code>
+                    <definition>metadata_not_provided</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="73613e0f5140fffb9175f41b91a7f65f_2">
+          <attributeName>time</attributeName>
+          <attributeDefinition>incubation time in days; D=no microbial inoculum; T=common microbial inoculum added</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>incubation time in days; D=no microbial inoculum; T=common microbial inoculum added</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="73613e0f5140fffb9175f41b91a7f65f_3">
+          <attributeName>rep</attributeName>
+          <attributeDefinition>sample replicate</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>experiment replicate 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>experiment replicate 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>experiment replicate 3</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="73613e0f5140fffb9175f41b91a7f65f_4">
+          <attributeName>doc_mg_l</attributeName>
+          <attributeDefinition>dissolved organic carbon concentration</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>MilliGM-PER-L</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">7.319</minimum>
+                  <maximum exclusive="false">174.7</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="73613e0f5140fffb9175f41b91a7f65f_5">
+          <attributeName>year</attributeName>
+          <attributeDefinition>year of sample collection</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>year of sample collection</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>59</numberOfRecords>
+    </dataTable>
+    <dataTable id="727_ash_leachate_chemistry.csv">
+      <entityName>727_ash_leachate_chemistry.csv</entityName>
+      <entityDescription>leachable solutes from ash collected following the 2020 Bush fire in the watershed of Sycamore Creek in central AZ (USA)</entityDescription>
+      <physical>
+        <objectName>727_ash_leachate_chemistry.csv</objectName>
+        <size unit="bytes">6243</size>
+        <authentication method="MD5">64bc8984c7792401b3dae89338d71fe7</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://gios-data.s3.us-west-2.amazonaws.com/datasets/cap/727_ash_leachate_chemistry.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <attributeList>
+        <attribute id="64bc8984c7792401b3dae89338d71fe7_1">
+          <attributeName>sample_id</attributeName>
+          <attributeDefinition>unique sample identifier</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>unique sample identifier</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="64bc8984c7792401b3dae89338d71fe7_2">
+          <attributeName>rep</attributeName>
+          <attributeDefinition>sample replicate</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>replicate 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>replicate 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>replicate 3</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="64bc8984c7792401b3dae89338d71fe7_3">
+          <attributeName>site</attributeName>
+          <attributeDefinition>sampling station</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>PC</code>
+                    <definition>metadata_not_provided</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RV</code>
+                    <definition>Round Valley</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RV/SS</code>
+                    <definition>metadata_not_provided</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="64bc8984c7792401b3dae89338d71fe7_4">
+          <attributeName>position</attributeName>
+          <attributeDefinition>landscape position of sample collection</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Bank</code>
+                    <definition>stream bank</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Rill</code>
+                    <definition>rill</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Up</code>
+                    <definition>up</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="64bc8984c7792401b3dae89338d71fe7_5">
+          <attributeName>year_collected</attributeName>
+          <attributeDefinition>year of sample collection</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>year of sample collection</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="64bc8984c7792401b3dae89338d71fe7_6">
+          <attributeName>analyte</attributeName>
+          <attributeDefinition>analyte name</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>Ca</code>
+                    <definition>Calcium</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>DOC</code>
+                    <definition>dissolved organic carbon</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>K</code>
+                    <definition>potassium</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Mg</code>
+                    <definition>magnesium</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>Na</code>
+                    <definition>sodium</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>NH4</code>
+                    <definition>ammonium</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TN</code>
+                    <definition>total nitrogen</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TOC</code>
+                    <definition>total organic carbon</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>TP</code>
+                    <definition>total phosphorus</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="64bc8984c7792401b3dae89338d71fe7_7">
+          <attributeName>analyte_concentration</attributeName>
+          <attributeDefinition>analyte concentration</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>analyte concentration</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="64bc8984c7792401b3dae89338d71fe7_8">
+          <attributeName>concentration_unit</attributeName>
+          <attributeDefinition>analyte concentration unit</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>mg N/L</code>
+                    <definition>milligrams nitrogen per litre</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>mg p/L</code>
+                    <definition>milligrams phosphorus per litre</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>mg/L</code>
+                    <definition>milligrams per litre</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>uM</code>
+                    <definition>micro moles</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="64bc8984c7792401b3dae89338d71fe7_9">
+          <attributeName>lability_yn</attributeName>
+          <attributeDefinition>indicates if lability was measured</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>lability</code>
+                    <definition>indicates lability was measured also</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+          <missingValueCode>
+            <code>NA</code>
+            <codeExplanation>missing value</codeExplanation>
+          </missingValueCode>
+        </attribute>
+        <attribute id="64bc8984c7792401b3dae89338d71fe7_10">
+          <attributeName>year_since_fire</attributeName>
+          <attributeDefinition>years since 2020 Bush Fire</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>NUM</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>whole</numberType>
+                <bounds>
+                  <minimum exclusive="false">0</minimum>
+                  <maximum exclusive="false">2</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="64bc8984c7792401b3dae89338d71fe7_11">
+          <attributeName>mg_per_g_ash</attributeName>
+          <attributeDefinition>mg of analyte leached per g dry ash</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>MilliGM-PER-GM</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.0024217</minimum>
+                  <maximum exclusive="false">18.87</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>98</numberOfRecords>
+    </dataTable>
+    <dataTable id="727_ash_cn.csv">
+      <entityName>727_ash_cn.csv</entityName>
+      <entityDescription>total carbon and nitrogen in solid ash samples in the watershed of Sycamore Creek in central AZ (USA)</entityDescription>
+      <physical>
+        <objectName>727_ash_cn.csv</objectName>
+        <size unit="bytes">1119</size>
+        <authentication method="MD5">20a717c0fc38e5e1040ae8d3f7a571b7</authentication>
+        <dataFormat>
+          <textFormat>
+            <numHeaderLines>1</numHeaderLines>
+            <recordDelimiter>\r\n</recordDelimiter>
+            <attributeOrientation>column</attributeOrientation>
+            <simpleDelimited>
+              <fieldDelimiter>,</fieldDelimiter>
+              <quoteCharacter>"</quoteCharacter>
+            </simpleDelimited>
+          </textFormat>
+        </dataFormat>
+        <distribution>
+          <online>
+            <url function="download">https://gios-data.s3.us-west-2.amazonaws.com/datasets/cap/727_ash_cn.csv</url>
+          </online>
+        </distribution>
+      </physical>
+      <coverage>
+        <temporalCoverage>
+          <rangeOfDates>
+            <beginDate>
+              <calendarDate>2023-02-06</calendarDate>
+            </beginDate>
+            <endDate>
+              <calendarDate>2023-02-06</calendarDate>
+            </endDate>
+          </rangeOfDates>
+        </temporalCoverage>
+      </coverage>
+      <attributeList>
+        <attribute id="20a717c0fc38e5e1040ae8d3f7a571b7_1">
+          <attributeName>sample_id</attributeName>
+          <attributeDefinition>sample identifier</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>sample identifier</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="20a717c0fc38e5e1040ae8d3f7a571b7_2">
+          <attributeName>site</attributeName>
+          <attributeDefinition>sampling station</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>PC</code>
+                    <definition>metadata_not_provided</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RV</code>
+                    <definition>Round Valley</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>RV/SS</code>
+                    <definition>metadata_not_provided</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="20a717c0fc38e5e1040ae8d3f7a571b7_3">
+          <attributeName>position</attributeName>
+          <attributeDefinition>landscape position of sample collection</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>landscape position of sample collection</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="20a717c0fc38e5e1040ae8d3f7a571b7_4">
+          <attributeName>rep</attributeName>
+          <attributeDefinition>sample replicate</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <enumeratedDomain>
+                  <codeDefinition>
+                    <code>1</code>
+                    <definition>experiment replicate 1</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>2</code>
+                    <definition>experiment replicate 2</definition>
+                  </codeDefinition>
+                  <codeDefinition>
+                    <code>3</code>
+                    <definition>experiment replicate 3</definition>
+                  </codeDefinition>
+                </enumeratedDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="20a717c0fc38e5e1040ae8d3f7a571b7_5">
+          <attributeName>date</attributeName>
+          <attributeDefinition>date of sample collection</attributeDefinition>
+          <storageType>date</storageType>
+          <measurementScale>
+            <dateTime>
+              <formatString>YYYY-MM-DD</formatString>
+              <dateTimeDomain/>
+            </dateTime>
+          </measurementScale>
+        </attribute>
+        <attribute id="20a717c0fc38e5e1040ae8d3f7a571b7_6">
+          <attributeName>weight</attributeName>
+          <attributeDefinition>weight of sample materials</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>MilliGM</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.95</minimum>
+                  <maximum exclusive="false">2.1</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="20a717c0fc38e5e1040ae8d3f7a571b7_7">
+          <attributeName>c_pct</attributeName>
+          <attributeDefinition>total carbon in percent of dry mass</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>PERCENT</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">2.6</minimum>
+                  <maximum exclusive="false">8.65</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="20a717c0fc38e5e1040ae8d3f7a571b7_8">
+          <attributeName>h_pct</attributeName>
+          <attributeDefinition>total hydrogen in percent of dry mass</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>PERCENT</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.25</minimum>
+                  <maximum exclusive="false">1.14</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="20a717c0fc38e5e1040ae8d3f7a571b7_9">
+          <attributeName>n_pct</attributeName>
+          <attributeDefinition>total nitrogen in percent of dry mass</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>PERCENT</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">0.15</minimum>
+                  <maximum exclusive="false">0.74</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="20a717c0fc38e5e1040ae8d3f7a571b7_10">
+          <attributeName>year</attributeName>
+          <attributeDefinition>year of sample collection</attributeDefinition>
+          <storageType>string</storageType>
+          <measurementScale>
+            <nominal>
+              <nonNumericDomain>
+                <textDomain>
+                  <definition>year of sample collection</definition>
+                </textDomain>
+              </nonNumericDomain>
+            </nominal>
+          </measurementScale>
+        </attribute>
+        <attribute id="20a717c0fc38e5e1040ae8d3f7a571b7_11">
+          <attributeName>c_mg_g</attributeName>
+          <attributeDefinition>mg C per g dry ash</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>MilliGM-PER-GM</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">26</minimum>
+                  <maximum exclusive="false">86.5</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+        <attribute id="20a717c0fc38e5e1040ae8d3f7a571b7_12">
+          <attributeName>n_mg_g</attributeName>
+          <attributeDefinition>mg N per g dry ash</attributeDefinition>
+          <storageType>float</storageType>
+          <measurementScale>
+            <ratio>
+              <unit>
+                <customUnit>MilliGM-PER-GM</customUnit>
+              </unit>
+              <numericDomain>
+                <numberType>real</numberType>
+                <bounds>
+                  <minimum exclusive="false">1.5</minimum>
+                  <maximum exclusive="false">7.4</maximum>
+                </bounds>
+              </numericDomain>
+            </ratio>
+          </measurementScale>
+        </attribute>
+      </attributeList>
+      <numberOfRecords>15</numberOfRecords>
+    </dataTable>
   </dataset>
   <annotations>
     <annotation references="03e2e871590da31926e525689b9d8e1f_10">
@@ -1169,6 +1833,42 @@ Water was collected by autosamplers during storms and manually during baseflow. 
       <propertyURI label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
       <valueURI label="Micromole">http://qudt.org/vocab/unit/MicroMOL</valueURI>
     </annotation>
+    <annotation references="73613e0f5140fffb9175f41b91a7f65f_4">
+      <propertyURI label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+      <valueURI label="Milligram Per Liter">http://qudt.org/vocab/unit/MilliGM-PER-L</valueURI>
+    </annotation>
+    <annotation references="64bc8984c7792401b3dae89338d71fe7_10">
+      <propertyURI label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+      <valueURI label="Number">http://qudt.org/vocab/unit/NUM</valueURI>
+    </annotation>
+    <annotation references="64bc8984c7792401b3dae89338d71fe7_11">
+      <propertyURI label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+      <valueURI label="Milligram Per Gram">http://qudt.org/vocab/unit/MilliGM-PER-GM</valueURI>
+    </annotation>
+    <annotation references="20a717c0fc38e5e1040ae8d3f7a571b7_11">
+      <propertyURI label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+      <valueURI label="Milligram Per Gram">http://qudt.org/vocab/unit/MilliGM-PER-GM</valueURI>
+    </annotation>
+    <annotation references="20a717c0fc38e5e1040ae8d3f7a571b7_12">
+      <propertyURI label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+      <valueURI label="Milligram Per Gram">http://qudt.org/vocab/unit/MilliGM-PER-GM</valueURI>
+    </annotation>
+    <annotation references="20a717c0fc38e5e1040ae8d3f7a571b7_6">
+      <propertyURI label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+      <valueURI label="Milligram">http://qudt.org/vocab/unit/MilliGM</valueURI>
+    </annotation>
+    <annotation references="20a717c0fc38e5e1040ae8d3f7a571b7_7">
+      <propertyURI label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+      <valueURI label="Percent">http://qudt.org/vocab/unit/PERCENT</valueURI>
+    </annotation>
+    <annotation references="20a717c0fc38e5e1040ae8d3f7a571b7_8">
+      <propertyURI label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+      <valueURI label="Percent">http://qudt.org/vocab/unit/PERCENT</valueURI>
+    </annotation>
+    <annotation references="20a717c0fc38e5e1040ae8d3f7a571b7_9">
+      <propertyURI label="has unit">http://qudt.org/schema/qudt/hasUnit</propertyURI>
+      <valueURI label="Percent">http://qudt.org/vocab/unit/PERCENT</valueURI>
+    </annotation>
   </annotations>
   <additionalMetadata>
     <metadata>
@@ -1190,6 +1890,18 @@ Water was collected by autosamplers during storms and manually during baseflow. 
         </unit>
         <unit id="MilliM">
           <description>Millimeter</description>
+        </unit>
+        <unit id="NUM">
+          <description>Number</description>
+        </unit>
+        <unit id="MilliGM-PER-GM">
+          <description>Milligram Per Gram</description>
+        </unit>
+        <unit id="MilliGM">
+          <description>Milligram</description>
+        </unit>
+        <unit id="PERCENT">
+          <description>Percent</description>
         </unit>
       </unitList>
     </metadata>

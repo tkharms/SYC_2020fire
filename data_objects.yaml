@@ -25,3 +25,31 @@ syc_fire_water_level:
   projectNaming: TRUE
   missingValueCode: ~
   additional_information: ~
+ash_leachate_lability:
+  type: table
+  dfname: ash_leachate_lability
+  description: "lability of dissolved organic carbon leached from ash collected within the watershed of Sycamore Creek in central Arizona (USA)"
+  dateRangeField: ~
+  overwrite: TRUE
+  projectNaming: TRUE
+  missingValueCode: ~
+  additional_information: ~
+ash_leachate_chemistry:
+  type: table
+  dfname: ash_leachate_chemistry
+  description: "leachable solutes from ash collected following the 2020 Bush fire in the watershed of Sycamore Creek in central AZ (USA)"
+  dateRangeField: ~
+  overwrite: TRUE
+  projectNaming: TRUE
+  missingValueCode: ~
+  additional_information: ~
+ash_cn:
+  type: table
+  dfname: ash_cn
+  description: "total carbon and nitrogen in solid ash samples in the watershed of Sycamore Creek in central AZ (USA)"
+  dateRangeField: "date"
+  overwrite: TRUE
+  projectNaming: TRUE
+  missingValueCode: ~
+  additional_information: ~
+

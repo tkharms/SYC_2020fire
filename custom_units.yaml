@@ -10,3 +10,11 @@
   description: Degree
 - name: MilliM
   description: Millimeter
+- name: NUM
+  description: Number
+- name: MilliGM-PER-GM
+  description: Milligram Per Gram
+- name: MilliGM
+  description: Milligram
+- name: PERCENT
+  description: Percent

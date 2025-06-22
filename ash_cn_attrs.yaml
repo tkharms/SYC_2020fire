@@ -1,0 +1,125 @@
+|
+  sample_id:
+    attributeName: sample_id
+    attributeDefinition: 'sample identifier'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    columnClasses: character
+    definition: ''
+  site:
+    attributeName: site
+    attributeDefinition: 'sampling station'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    columnClasses: factor
+  position:
+    attributeName: position
+    attributeDefinition: 'landscape position of sample collection'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    columnClasses: character
+    definition: ''
+  rep:
+    attributeName: rep
+    attributeDefinition: 'sample replicate'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    columnClasses: factor
+  date:
+    attributeName: date
+    attributeDefinition: 'date of sample collection'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    columnClasses: Date
+    formatString: YYYY-MM-DD
+  weight:
+    attributeName: weight
+    attributeDefinition: 'weight of sample materials'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    unit: 'MilliGM'
+    numberType: real
+    minimum: 1.95
+    maximum: 2.1
+    columnClasses: numeric
+  c_pct:
+    attributeName: c_pct
+    attributeDefinition: 'total carbon in percent of dry mass'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    unit: 'PERCENT'
+    numberType: real
+    minimum: 2.6
+    maximum: 8.65
+    columnClasses: numeric
+  h_pct:
+    attributeName: h_pct
+    attributeDefinition: 'total hydrogen in percent of dry mass'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    unit: 'PERCENT'
+    numberType: real
+    minimum: 0.25
+    maximum: 1.14
+    columnClasses: numeric
+  n_pct:
+    attributeName: n_pct
+    attributeDefinition: 'total nitrogen in percent of dry mass'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    unit: 'PERCENT'
+    numberType: real
+    minimum: 0.15
+    maximum: 0.74
+    columnClasses: numeric
+  year:
+    attributeName: year
+    attributeDefinition: 'year of sample collection'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    columnClasses: character
+    definition: ''
+  c_mg_g:
+    attributeName: c_mg_g
+    attributeDefinition: 'mg C per g dry ash'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    unit: 'MilliGM-PER-GM'
+    numberType: real
+    minimum: 26.0
+    maximum: 86.5
+    columnClasses: numeric
+  n_mg_g:
+    attributeName: n_mg_g
+    attributeDefinition: 'mg N per g dry ash'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    unit: 'MilliGM-PER-GM'
+    numberType: real
+    minimum: 1.5
+    maximum: 7.4
+    columnClasses: numeric

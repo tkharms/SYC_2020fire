@@ -8,24 +8,6 @@ date: Sys.Date()
 #| eval: TRUE
 #| label: metadata
 
-# readxl::read_excel(
-#   path  = "SYC_fire_streamchem_metadata.xlsx",
-#   sheet = "attributes"
-# ) |>
-#   readr::write_csv("attributes.csv")
-
-# readxl::read_excel(
-#   path  = "SYC_fire_streamchem_metadata.xlsx",
-#   sheet = "attribute_codes"
-# ) |>
-#   readr::write_csv("attribute_codes.csv")
-
-# readxl::read_excel(
-#   path  = "SYC_fire_streamchem_metadata.xlsx",
-#   sheet = "dataset"
-# ) |>
-#   readr::write_csv("dataset.csv")
-
 readxl::read_excel(
   path  = "SYC_fire_streamchem_metadata.xlsx",
   sheet = "data_entities"
@@ -86,9 +68,7 @@ syc_fire_sites <- dplyr::left_join(
     area_km2
   )
 
-try({
-  capeml::write_attributes(syc_fire_sites, overwrite = FALSE)
-})
+try({capeml::write_attributes(syc_fire_sites, overwrite = FALSE)})
 
 ```
 
@@ -115,6 +95,86 @@ syc_fire_water_level <- readr::read_csv(
   )
 
 try({capeml::write_attributes(syc_fire_water_level, overwrite = FALSE)})
+
+```
+
+```{r}
+#| eval: TRUE
+#| label: ash-leachate-lability
+
+ash_leachate_lability <- dplyr::bind_rows(
+  readxl::read_excel(
+    path  = "ash_leachate_doclability.xlsx",
+    sheet = "Sheet8"
+  ),
+  readxl::read_excel(
+    path  = "ash_leachate_doclability.xlsx",
+    sheet = "Sheet9"
+  )
+) |>
+  janitor::clean_names() |>
+  dplyr::select(
+    site,
+    time,
+    rep,
+    doc_mg_l,
+    year
+  ) |>
+  dplyr::mutate(
+    site = as.factor(site),
+    rep  = as.factor(rep),
+    year = as.character(year)
+  )
+
+try({
+  capeml::write_attributes(ash_leachate_lability, overwrite = FALSE)
+  capeml::write_factors(ash_leachate_lability, overwrite = FALSE)
+})
+
+```
+
+```{r}
+#| eval: TRUE
+#| label: ash-leachate-chemistry
+
+ash_leachate_chemistry <- readr::read_csv("ash_leachates.csv") |>
+  janitor::clean_names() |>
+  dplyr::mutate(
+    sample_id          = as.character(sample_id),
+    site               = as.factor(site),
+    rep                = as.factor(rep),
+    position           = as.factor(position),
+    year_collected     = as.character(year_collected),
+    analyte            = as.factor(analyte),
+    concentration_unit = as.factor(concentration_unit),
+    lability_yn        = as.factor(lability_yn)
+  )
+
+try({
+  capeml::write_attributes(ash_leachate_chemistry, overwrite = FALSE)
+  capeml::write_factors(ash_leachate_chemistry, overwrite = FALSE)
+})
+
+```
+
+```{r}
+#| eval: TRUE
+#| label: ash-CN
+
+ash_cn <- readr::read_csv("ashCN.csv") |>
+  janitor::clean_names() |>
+  dplyr::mutate(
+    site  = as.factor(site),
+    rep   = as.factor(rep),
+    units = as.factor(units),
+    year  = as.character(year)
+  ) |>
+  dplyr::select(-units)
+
+try({
+  capeml::write_attributes(ash_cn, overwrite = FALSE)
+  capeml::write_factors(ash_cn, overwrite = FALSE)
+})
 
 ```
 
@@ -177,10 +237,10 @@ if (!file.exists("people.yaml")) {
 #| eval: TRUE
 #| label: coverages
 
-dataset <- readxl::read_excel(
-  path  = "SYC_fire_streamchem_metadata.xlsx",
-  sheet = "dataset"
-)
+# dataset <- readxl::read_excel(
+#   path  = "SYC_fire_streamchem_metadata.xlsx",
+#   sheet = "dataset"
+# )
 
 coverage <- EML::set_coverage(
   begin                 = "2020-07-24",
@@ -217,7 +277,7 @@ capeml::get_package_evaluation(full_report = FALSE)
 report <- capeml::get_package_evaluation(full_report = TRUE)
 xml2::write_xml(report, "/tmp/report.xml")
 
-capeml::create_package(environment = "development")
+capeml::create_package(environment = "staging")
 
 EDIutils::logout()
 

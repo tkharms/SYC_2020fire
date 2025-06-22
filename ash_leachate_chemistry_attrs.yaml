@@ -1,0 +1,100 @@
+|
+  sample_id:
+    attributeName: sample_id
+    attributeDefinition: 'unique sample identifier'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    columnClasses: character
+    definition: ''
+  rep:
+    attributeName: rep
+    attributeDefinition: 'sample replicate'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    columnClasses: factor
+  site:
+    attributeName: site
+    attributeDefinition: 'sampling station'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    columnClasses: factor
+  position:
+    attributeName: position
+    attributeDefinition: 'landscape position of sample collection'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    columnClasses: factor
+  year_collected:
+    attributeName: year_collected
+    attributeDefinition: 'year of sample collection'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    columnClasses: character
+    definition: ''
+  analyte:
+    attributeName: analyte
+    attributeDefinition: 'analyte name'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    columnClasses: factor
+  analyte_concentration:
+    attributeName: analyte_concentration
+    attributeDefinition: 'analyte concentration'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    columnClasses: character
+    definition: ''
+  concentration_unit:
+    attributeName: concentration_unit
+    attributeDefinition: 'analyte concentration unit'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    columnClasses: factor
+  lability_yn:
+    attributeName: lability_yn
+    attributeDefinition: 'indicates if lability was measured'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    columnClasses: factor
+  year_since_fire:
+    attributeName: year_since_fire
+    attributeDefinition: 'years since 2020 Bush Fire'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    unit: 'NUM'
+    numberType: whole
+    minimum: 0.0
+    maximum: 2.0
+    columnClasses: numeric
+  mg_per_g_ash:
+    attributeName: mg_per_g_ash
+    attributeDefinition: 'mg of analyte leached per g dry ash'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    unit: 'MilliGM-PER-GM'
+    numberType: real
+    minimum: 0.0024217
+    maximum: 18.87
+    columnClasses: numeric
