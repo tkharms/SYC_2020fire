@@ -1,0 +1,174 @@
+- name: MilliGM-PER-L
+  valueLabel: Milligram Per Liter
+  valueURI: http://qudt.org/vocab/unit/MilliGM-PER-L
+  references: 03e2e871590da31926e525689b9d8e1f_10
+  propertyLabel: has unit
+  propertyURI: http://qudt.org/schema/qudt/hasUnit
+- name: MilliGM-PER-L
+  valueLabel: Milligram Per Liter
+  valueURI: http://qudt.org/vocab/unit/MilliGM-PER-L
+  references: 03e2e871590da31926e525689b9d8e1f_11
+  propertyLabel: has unit
+  propertyURI: http://qudt.org/schema/qudt/hasUnit
+- name: MilliGM-PER-L
+  valueLabel: Milligram Per Liter
+  valueURI: http://qudt.org/vocab/unit/MilliGM-PER-L
+  references: 03e2e871590da31926e525689b9d8e1f_12
+  propertyLabel: has unit
+  propertyURI: http://qudt.org/schema/qudt/hasUnit
+- name: MilliGM-PER-L
+  valueLabel: Milligram Per Liter
+  valueURI: http://qudt.org/vocab/unit/MilliGM-PER-L
+  references: 03e2e871590da31926e525689b9d8e1f_13
+  propertyLabel: has unit
+  propertyURI: http://qudt.org/schema/qudt/hasUnit
+- name: MilliGM-PER-L
+  valueLabel: Milligram Per Liter
+  valueURI: http://qudt.org/vocab/unit/MilliGM-PER-L
+  references: 03e2e871590da31926e525689b9d8e1f_14
+  propertyLabel: has unit
+  propertyURI: http://qudt.org/schema/qudt/hasUnit
+- name: MilliGM-PER-L
+  valueLabel: Milligram Per Liter
+  valueURI: http://qudt.org/vocab/unit/MilliGM-PER-L
+  references: 03e2e871590da31926e525689b9d8e1f_15
+  propertyLabel: has unit
+  propertyURI: http://qudt.org/schema/qudt/hasUnit
+- name: MilliGM-PER-L
+  valueLabel: Milligram Per Liter
+  valueURI: http://qudt.org/vocab/unit/MilliGM-PER-L
+  references: 03e2e871590da31926e525689b9d8e1f_16
+  propertyLabel: has unit
+  propertyURI: http://qudt.org/schema/qudt/hasUnit
+- name: MilliGM-PER-L
+  valueLabel: Milligram Per Liter
+  valueURI: http://qudt.org/vocab/unit/MilliGM-PER-L
+  references: 03e2e871590da31926e525689b9d8e1f_17
+  propertyLabel: has unit
+  propertyURI: http://qudt.org/schema/qudt/hasUnit
+- name: MilliGM-PER-L
+  valueLabel: Milligram Per Liter
+  valueURI: http://qudt.org/vocab/unit/MilliGM-PER-L
+  references: 03e2e871590da31926e525689b9d8e1f_18
+  propertyLabel: has unit
+  propertyURI: http://qudt.org/schema/qudt/hasUnit
+- name: MilliGM-PER-L
+  valueLabel: Milligram Per Liter
+  valueURI: http://qudt.org/vocab/unit/MilliGM-PER-L
+  references: 03e2e871590da31926e525689b9d8e1f_19
+  propertyLabel: has unit
+  propertyURI: http://qudt.org/schema/qudt/hasUnit
+- name: MicroMOL
+  valueLabel: Micromole
+  valueURI: http://qudt.org/vocab/unit/MicroMOL
+  references: 03e2e871590da31926e525689b9d8e1f_21
+  propertyLabel: has unit
+  propertyURI: http://qudt.org/schema/qudt/hasUnit
+- name: MicroMOL
+  valueLabel: Micromole
+  valueURI: http://qudt.org/vocab/unit/MicroMOL
+  references: 03e2e871590da31926e525689b9d8e1f_22
+  propertyLabel: has unit
+  propertyURI: http://qudt.org/schema/qudt/hasUnit
+- name: MicroMOL
+  valueLabel: Micromole
+  valueURI: http://qudt.org/vocab/unit/MicroMOL
+  references: 03e2e871590da31926e525689b9d8e1f_23
+  propertyLabel: has unit
+  propertyURI: http://qudt.org/schema/qudt/hasUnit
+- name: MicroMOL
+  valueLabel: Micromole
+  valueURI: http://qudt.org/vocab/unit/MicroMOL
+  references: 03e2e871590da31926e525689b9d8e1f_24
+  propertyLabel: has unit
+  propertyURI: http://qudt.org/schema/qudt/hasUnit
+- name: MilliGM-PER-L
+  valueLabel: Milligram Per Liter
+  valueURI: http://qudt.org/vocab/unit/MilliGM-PER-L
+  references: 03e2e871590da31926e525689b9d8e1f_8
+  propertyLabel: has unit
+  propertyURI: http://qudt.org/schema/qudt/hasUnit
+- name: MicroGM-PER-L
+  valueLabel: Microgram Per Liter
+  valueURI: http://qudt.org/vocab/unit/MicroGM-PER-L
+  references: 03e2e871590da31926e525689b9d8e1f_9
+  propertyLabel: has unit
+  propertyURI: http://qudt.org/schema/qudt/hasUnit
+- name: DEG
+  valueLabel: Degree
+  valueURI: http://qudt.org/vocab/unit/DEG
+  references: 6482ff037137ad8b8032b1a390350deb_3
+  propertyLabel: has unit
+  propertyURI: http://qudt.org/schema/qudt/hasUnit
+- name: DEG
+  valueLabel: Degree
+  valueURI: http://qudt.org/vocab/unit/DEG
+  references: 6482ff037137ad8b8032b1a390350deb_4
+  propertyLabel: has unit
+  propertyURI: http://qudt.org/schema/qudt/hasUnit
+- name: MilliM
+  valueLabel: Millimeter
+  valueURI: http://qudt.org/vocab/unit/MilliM
+  references: 703bfe7df425264cd0378c862d67543a_3
+  propertyLabel: has unit
+  propertyURI: http://qudt.org/schema/qudt/hasUnit
+- name: MicroMOL
+  valueLabel: Micromole
+  valueURI: http://qudt.org/vocab/unit/MicroMOL
+  references: 03e2e871590da31926e525689b9d8e1f_20
+  propertyLabel: has unit
+  propertyURI: http://qudt.org/schema/qudt/hasUnit
+- name: MilliGM-PER-L
+  valueLabel: Milligram Per Liter
+  valueURI: http://qudt.org/vocab/unit/MilliGM-PER-L
+  references: 73613e0f5140fffb9175f41b91a7f65f_4
+  propertyLabel: has unit
+  propertyURI: http://qudt.org/schema/qudt/hasUnit
+- name: NUM
+  valueLabel: Number
+  valueURI: http://qudt.org/vocab/unit/NUM
+  references: 64bc8984c7792401b3dae89338d71fe7_10
+  propertyLabel: has unit
+  propertyURI: http://qudt.org/schema/qudt/hasUnit
+- name: MilliGM-PER-GM
+  valueLabel: Milligram Per Gram
+  valueURI: http://qudt.org/vocab/unit/MilliGM-PER-GM
+  references: 64bc8984c7792401b3dae89338d71fe7_11
+  propertyLabel: has unit
+  propertyURI: http://qudt.org/schema/qudt/hasUnit
+- name: MilliGM-PER-GM
+  valueLabel: Milligram Per Gram
+  valueURI: http://qudt.org/vocab/unit/MilliGM-PER-GM
+  references: 20a717c0fc38e5e1040ae8d3f7a571b7_11
+  propertyLabel: has unit
+  propertyURI: http://qudt.org/schema/qudt/hasUnit
+- name: MilliGM-PER-GM
+  valueLabel: Milligram Per Gram
+  valueURI: http://qudt.org/vocab/unit/MilliGM-PER-GM
+  references: 20a717c0fc38e5e1040ae8d3f7a571b7_12
+  propertyLabel: has unit
+  propertyURI: http://qudt.org/schema/qudt/hasUnit
+- name: MilliGM
+  valueLabel: Milligram
+  valueURI: http://qudt.org/vocab/unit/MilliGM
+  references: 20a717c0fc38e5e1040ae8d3f7a571b7_6
+  propertyLabel: has unit
+  propertyURI: http://qudt.org/schema/qudt/hasUnit
+- name: PERCENT
+  valueLabel: Percent
+  valueURI: http://qudt.org/vocab/unit/PERCENT
+  references: 20a717c0fc38e5e1040ae8d3f7a571b7_7
+  propertyLabel: has unit
+  propertyURI: http://qudt.org/schema/qudt/hasUnit
+- name: PERCENT
+  valueLabel: Percent
+  valueURI: http://qudt.org/vocab/unit/PERCENT
+  references: 20a717c0fc38e5e1040ae8d3f7a571b7_8
+  propertyLabel: has unit
+  propertyURI: http://qudt.org/schema/qudt/hasUnit
+- name: PERCENT
+  valueLabel: Percent
+  valueURI: http://qudt.org/vocab/unit/PERCENT
+  references: 20a717c0fc38e5e1040ae8d3f7a571b7_9
+  propertyLabel: has unit
+  propertyURI: http://qudt.org/schema/qudt/hasUnit

@@ -1,0 +1,7 @@
+scope: knb-lter-cap
+identifier: 727
+baseURL: https://gios-data.s3.us-west-2.amazonaws.com/datasets/cap/
+project: lter
+title: 'Indirect impacts of a novel wildfire on a well-studied desert stream: connectivity, carbon, and communities'
+maintenance: none
+geographic_description: 'Sycamore Creek watershed of central Arizona, USA'

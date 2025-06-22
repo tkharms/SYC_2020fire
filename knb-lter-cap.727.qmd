@@ -1,0 +1,284 @@
+---
+title: "knb-lter-cap.727"
+author: "cap lter information manager"
+date: Sys.Date()
+---
+
+```{r}
+#| eval: TRUE
+#| label: metadata
+
+readxl::read_excel(
+  path  = "SYC_fire_streamchem_metadata.xlsx",
+  sheet = "data_entities"
+) |>
+  readr::write_csv("/tmp/data_entities.csv")
+```
+
+```{r}
+#| eval: TRUE
+#| label: syc_fire_stream_chemistry
+
+syc_fire_stream_chemistry <- readr::read_csv("SYC_fire_streamchem.csv") |>
+  dplyr::mutate(
+    Site       = as.factor(Site),
+    DateTime   = as.POSIXct(
+      x      = DateTime,
+      format = "%m/%d/%y %H:%M",
+      tz     = "America/Phoenix"
+      ),
+    burn       = as.factor(burn),
+    trib_main  = as.factor(trib_main),
+    Event_Date = as.Date(
+      x      = Event_Date,
+      format = "%m/%d/%y"
+      ),
+    Stage      = as.factor(Stage),
+    Type       = as.factor(Type)
+  )
+
+try({
+  capeml::write_attributes(syc_fire_stream_chemistry, overwrite = FALSE)
+  capeml::write_factors(syc_fire_stream_chemistry, overwrite = FALSE)
+})
+
+```
+
+```{r}
+#| eval: TRUE
+#| label: sites
+
+syc_fire_sites <- readxl::read_excel(path = "SycFireRapid_Sites.xlsx") |>
+  janitor::clean_names() |>
+  dplyr::rename(comments = `x12`)
+
+syc_fire_sites <- dplyr::left_join(
+  x  = syc_fire_sites,
+  y  = readr::read_csv("rapid_SYC_subcatchment_sizes.csv"),
+  by = c("abbreviation" = "location_id")
+) |>
+  dplyr::select(
+    abbreviation,
+    site_name,
+    latitude,
+    longitude,
+    description,
+    sensors_measurements,
+    comments,
+    area_km2
+  )
+
+try({capeml::write_attributes(syc_fire_sites, overwrite = FALSE)})
+
+```
+
+```{r}
+#| eval: TRUE
+#| label: water-levels
+
+syc_fire_water_level <- readr::read_csv(
+  file = "SycFireRapid_WaterLevel.csv",
+  locale = readr::locale(tz = "America/Phoenix")
+) |>
+  janitor::clean_names() |>
+  dplyr::mutate(
+    datetime = as.POSIXct(
+      x      = paste(year, month, day, sep = "-") |> paste(time, am_pm, sep = " "),
+      format = "%Y-%m-%d %H:%M:%S %p",
+      tz     = "America/Phoenix"
+    ),
+  ) |>
+  dplyr::select(
+    site_name,
+    datetime,
+    level
+  )
+
+try({capeml::write_attributes(syc_fire_water_level, overwrite = FALSE)})
+
+```
+
+```{r}
+#| eval: TRUE
+#| label: ash-leachate-lability
+
+ash_leachate_lability <- dplyr::bind_rows(
+  readxl::read_excel(
+    path  = "ash_leachate_doclability.xlsx",
+    sheet = "Sheet8"
+  ),
+  readxl::read_excel(
+    path  = "ash_leachate_doclability.xlsx",
+    sheet = "Sheet9"
+  )
+) |>
+  janitor::clean_names() |>
+  dplyr::select(
+    site,
+    time,
+    rep,
+    doc_mg_l,
+    year
+  ) |>
+  dplyr::mutate(
+    site = as.factor(site),
+    rep  = as.factor(rep),
+    year = as.character(year)
+  )
+
+try({
+  capeml::write_attributes(ash_leachate_lability, overwrite = FALSE)
+  capeml::write_factors(ash_leachate_lability, overwrite = FALSE)
+})
+
+```
+
+```{r}
+#| eval: TRUE
+#| label: ash-leachate-chemistry
+
+ash_leachate_chemistry <- readr::read_csv("ash_leachates.csv") |>
+  janitor::clean_names() |>
+  dplyr::mutate(
+    sample_id          = as.character(sample_id),
+    site               = as.factor(site),
+    rep                = as.factor(rep),
+    position           = as.factor(position),
+    year_collected     = as.character(year_collected),
+    analyte            = as.factor(analyte),
+    concentration_unit = as.factor(concentration_unit),
+    lability_yn        = as.factor(lability_yn)
+  )
+
+try({
+  capeml::write_attributes(ash_leachate_chemistry, overwrite = FALSE)
+  capeml::write_factors(ash_leachate_chemistry, overwrite = FALSE)
+})
+
+```
+
+```{r}
+#| eval: TRUE
+#| label: ash-CN
+
+ash_cn <- readr::read_csv("ashCN.csv") |>
+  janitor::clean_names() |>
+  dplyr::mutate(
+    site  = as.factor(site),
+    rep   = as.factor(rep),
+    units = as.factor(units),
+    year  = as.character(year)
+  ) |>
+  dplyr::select(-units)
+
+try({
+  capeml::write_attributes(ash_cn, overwrite = FALSE)
+  capeml::write_factors(ash_cn, overwrite = FALSE)
+})
+
+```
+
+```{r}
+#| eval: TRUE
+#| label: personnel
+
+personnel <- readxl::read_excel(
+  path  = "SYC_fire_streamchem_metadata.xlsx",
+  sheet = "personnel"
+) |>
+  dplyr::mutate(
+    data_source  = "~/Dropbox/floating/cap_authors.csv",
+    project_role = dplyr::case_when(
+      role == "associatedParty" ~ "some_project_role",
+      TRUE ~ NA_character_
+    )
+  ) |>
+  dplyr::select(
+    last_name,
+    first_name,
+    role_type = role,
+    project_role,
+    email,
+    orcid = ORCiD,
+    data_source
+  )
+
+# Convert to a list of lists
+personnel_list <- purrr::transpose(personnel)
+
+# write to people.yaml (edit as needed)
+if (!file.exists("people.yaml")) {
+  yaml::write_yaml(
+    x    = personnel_list,
+    file = "people.yaml"
+  )
+} else {
+  message("people.yaml already exists; not overwriting.")
+}
+
+```
+
+
+```{r}
+#| eval: FALSE
+#| label: keywords
+
+(
+  readxl::read_excel(
+    path  = "SYC_fire_streamchem_metadata.xlsx",
+    sheet = "keywords"
+  ) |>
+    readr::write_csv("/tmp/keywords.csv")
+)
+```
+
+
+```{r}
+#| eval: TRUE
+#| label: coverages
+
+# dataset <- readxl::read_excel(
+#   path  = "SYC_fire_streamchem_metadata.xlsx",
+#   sheet = "dataset"
+# )
+
+coverage <- EML::set_coverage(
+  begin                 = "2020-07-24",
+  end                   = "2021-12-10",
+  geographicDescription = capeml::read_package_configuration()[["geographic_description"]],
+  west                  = min(syc_fire_sites$longitude, na.rm = TRUE),
+  east                  = max(syc_fire_sites$longitude, na.rm = TRUE),
+  north                 = max(syc_fire_sites$latitude, na.rm = TRUE),
+  south                 = min(syc_fire_sites$latitude, na.rm = TRUE),
+)
+```
+
+
+```{r}
+#| eval: TRUE
+#| label: build
+
+dataset <- capeml::create_dataset()
+eml     <- capeml::create_eml()
+
+EML::eml_validate(eml)
+capeml::write_cap_eml()
+
+source("~/Documents/localSettings/aws.s3")
+
+lapply(
+  X   = list.files(pattern = "^727_"),
+  FUN = capeml::data_to_amz
+)
+
+source("~/Documents/localSettings/edi.R")
+capeml::get_package_evaluation(full_report = FALSE)
+
+report <- capeml::get_package_evaluation(full_report = TRUE)
+xml2::write_xml(report, "/tmp/report.xml")
+
+capeml::create_package(environment = "staging")
+
+EDIutils::logout()
+
+```

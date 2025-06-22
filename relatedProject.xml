@@ -1,0 +1,43 @@
+<!-- added manually, post-hoc to <project> -->
+
+<relatedProject>
+  <title>RAPID: Indirect impacts of a novel wildfire on a well-studied desert stream: connectivity, carbon, and communities.</title>
+  <personnel>
+    <individualName>
+      <givenName>Nancy</givenName>
+      <surName>Grimm</surName>
+    </individualName>
+    <organizationName>Arizona State University</organizationName>
+    <electronicMailAddress>nbgrimm@asu.edu</electronicMailAddress>
+    <userId directory="https://orcid.org">0000-0001-9374-660X</userId>
+    <role>Principal Investigator</role>
+  </personnel>
+  <personnel>
+    <individualName>
+      <givenName>Tamara</givenName>
+      <surName>Harms</surName>
+    </individualName>
+    <organizationName>University of California at Riverside</organizationName>
+    <electronicMailAddress>tharms@ucr.edu</electronicMailAddress>
+    <userId directory="https://orcid.org">0000-0001-7845-1109</userId>
+    <role>Co-principal Investigator</role>
+  </personnel>
+  <personnel>
+    <individualName>
+      <givenName>Michael</givenName>
+      <surName>Bogan</surName>
+    </individualName>
+    <organizationName>University of Arizona</organizationName>
+    <electronicMailAddress>mbogan@arizona.edu</electronicMailAddress>
+    <userId directory="https://orcid.org">0000-0002-8150-8476</userId>
+    <role>Co-principal Investigator</role>
+  </personnel>
+  <funding>NSF Awards: 2040194, 2135491, 2220497</funding>
+  <award>
+    <funderName>National Science Foundation</funderName>
+    <funderIdentifier>https://ror.org/021nxhr62</funderIdentifier>
+    <awardNumber>2040194</awardNumber>
+    <title>RAPID: Indirect impacts of a novel wildfire on a well-studied desert stream: connectivity, carbon, and communities.</title>
+    <awardUrl></awardUrl>
+  </award>
+</relatedProject>

@@ -1,0 +1,47 @@
+|
+  site:
+    attributeName: site
+    attributeDefinition: 'sampling station'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    columnClasses: factor
+  time:
+    attributeName: time
+    attributeDefinition: 'incubation time in days; D=no microbial inoculum; T=common microbial inoculum added'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    columnClasses: character
+    definition: ''
+  rep:
+    attributeName: rep
+    attributeDefinition: 'sample replicate'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    columnClasses: factor
+  doc_mg_l:
+    attributeName: doc_mg_l
+    attributeDefinition: 'dissolved organic carbon concentration'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    unit: 'MilliGM-PER-L'
+    numberType: real
+    minimum: 7.319
+    maximum: 174.7
+    columnClasses: numeric
+  year:
+    attributeName: year
+    attributeDefinition: 'year of sample collection'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    columnClasses: character
+    definition: ''

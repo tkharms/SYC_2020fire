@@ -1,0 +1,65 @@
+|
+  - attribute:
+      attributeName: rep
+      levels:
+      - code: '1'
+        definition: 'replicate 1'
+      - code: '2'
+        definition: 'replicate 2'
+      - code: '3'
+        definition: 'replicate 3'
+  - attribute:
+      attributeName: site
+      levels:
+      - code: PC
+        definition: metadata_not_provided
+      - code: RV
+        definition: 'Round Valley'
+      - code: RV/SS
+        definition: metadata_not_provided
+  - attribute:
+      attributeName: position
+      levels:
+      - code: Bank
+        definition: 'stream bank'
+      - code: Rill
+        definition: rill
+      - code: Up
+        definition: up
+  - attribute:
+      attributeName: analyte
+      levels:
+      - code: Ca
+        definition: Calcium
+      - code: DOC
+        definition: 'dissolved organic carbon'
+      - code: K
+        definition: potassium
+      - code: Mg
+        definition: magnesium
+      - code: Na
+        definition: sodium
+      - code: NH4
+        definition: ammonium
+      - code: TN
+        definition: 'total nitrogen'
+      - code: TOC
+        definition: 'total organic carbon'
+      - code: TP
+        definition: 'total phosphorus'
+  - attribute:
+      attributeName: concentration_unit
+      levels:
+      - code: mg N/L
+        definition: 'milligrams nitrogen per litre'
+      - code: mg p/L
+        definition: 'milligrams phosphorus per litre'
+      - code: mg/L
+        definition: 'milligrams per litre'
+      - code: uM
+        definition: 'micro moles'
+  - attribute:
+      attributeName: lability_yn
+      levels:
+      - code: lability
+        definition: 'indicates lability was measured also'

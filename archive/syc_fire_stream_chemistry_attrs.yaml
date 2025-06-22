@@ -1,0 +1,263 @@
+|
+  Site:
+    attributeName: Site
+    attributeDefinition: 'sampling station'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    columnClasses: factor
+  DateTime:
+    attributeName: DateTime
+    attributeDefinition: 'date and time of sample collection'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    columnClasses: Date
+    formatString: YYYY-MM-DD
+  burn:
+    attributeName: burn
+    attributeDefinition: 'burned = fire within the contributing area; unburned= no fire in contributing area'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    columnClasses: factor
+  trib_main:
+    attributeName: trib_main
+    attributeDefinition: 'tributary or mainstem'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    columnClasses: factor
+  Type:
+    attributeName: Type
+    attributeDefinition: 'method of sample collection: ISCO = autosampler; GRAB = manual grab sample'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    columnClasses: factor
+  Event_Date:
+    attributeName: Event_Date
+    attributeDefinition: 'date of flood that initiated sampling'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    columnClasses: Date
+    formatString: YYYY-MM-DD
+  Stage:
+    attributeName: Stage
+    attributeDefinition: 'flood or baseflow'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    columnClasses: factor
+  DOC_mgL:
+    attributeName: DOC_mgL
+    attributeDefinition: 'dissolved organic carbon concentration'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    unit: ''
+    numberType: real
+    minimum: 1.9425
+    maximum: 200.1
+    columnClasses: numeric
+  SRP_ugL:
+    attributeName: SRP_ugL
+    attributeDefinition: 'soluble reactive phosphorus concentration'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    unit: ''
+    numberType: real
+    minimum: 14.4
+    maximum: 1166.0
+    columnClasses: numeric
+  TC_mgL:
+    attributeName: TC_mgL
+    attributeDefinition: 'total carbon conentration (particulate + dissolved; organic and inorganic)'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    unit: ''
+    numberType: real
+    minimum: 12.585
+    maximum: 133.35
+    columnClasses: numeric
+  TDP_mgL:
+    attributeName: TDP_mgL
+    attributeDefinition: 'total dissolved phosphorus concentration'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    unit: ''
+    numberType: real
+    minimum: 0.00465
+    maximum: 0.722
+    columnClasses: numeric
+  TN_mgL:
+    attributeName: TN_mgL
+    attributeDefinition: 'total dissolved nitrogen concentration'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    unit: ''
+    numberType: real
+    minimum: 0.004
+    maximum: 15.29086
+    columnClasses: numeric
+  TOC_mgL:
+    attributeName: TOC_mgL
+    attributeDefinition: 'total organic carbon concentration (dissolved + particulate)'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    unit: ''
+    numberType: real
+    minimum: 1.844
+    maximum: 51.68
+    columnClasses: numeric
+  NH4N_color_mgL:
+    attributeName: NH4N_color_mgL
+    attributeDefinition: 'ammonium concentration'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    unit: ''
+    numberType: real
+    minimum: 0.003
+    maximum: 1.595
+    columnClasses: numeric
+  Fluoride_mgL:
+    attributeName: Fluoride_mgL
+    attributeDefinition: 'fluoride concentration'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    unit: ''
+    numberType: real
+    minimum: 0.0012
+    maximum: 2.6463
+    columnClasses: numeric
+  Chloride_mgL:
+    attributeName: Chloride_mgL
+    attributeDefinition: 'chloride concentration'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    unit: ''
+    numberType: real
+    minimum: 0.0034
+    maximum: 91.2726
+    columnClasses: numeric
+  Sulfate_mgL:
+    attributeName: Sulfate_mgL
+    attributeDefinition: 'sulfate concentration'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    unit: ''
+    numberType: real
+    minimum: 0.7494
+    maximum: 224.1133
+    columnClasses: numeric
+  Bromide_mgL:
+    attributeName: Bromide_mgL
+    attributeDefinition: 'bromide concentration'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    unit: ''
+    numberType: real
+    minimum: 0.0023
+    maximum: 6.7248
+    columnClasses: numeric
+  NitrateN_mgL:
+    attributeName: NitrateN_mgL
+    attributeDefinition: 'nitrate concentration'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    unit: ''
+    numberType: real
+    minimum: 0.0004
+    maximum: 11.9793
+    columnClasses: numeric
+  Sodium_uM:
+    attributeName: Sodium_uM
+    attributeDefinition: 'sodium concentration'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    unit: ''
+    numberType: real
+    minimum: 29.8695
+    maximum: 13615.053
+    columnClasses: numeric
+  Ammonium_uM:
+    attributeName: Ammonium_uM
+    attributeDefinition: 'ammonium concentration'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    unit: ''
+    numberType: real
+    minimum: 0.612
+    maximum: 147.3975
+    columnClasses: numeric
+  Potassium_uM:
+    attributeName: Potassium_uM
+    attributeDefinition: 'potassium concentration'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    unit: ''
+    numberType: real
+    minimum: 13.9908
+    maximum: 337.68425
+    columnClasses: numeric
+  Magnesium_uM:
+    attributeName: Magnesium_uM
+    attributeDefinition: 'magnesium concentration'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    unit: ''
+    numberType: real
+    minimum: 39.7545
+    maximum: 1472.96175
+    columnClasses: numeric
+  Calcium_uM:
+    attributeName: Calcium_uM
+    attributeDefinition: 'calcium concentration'
+    propertyURI: ''
+    propertyLabel: ''
+    valueURI: ''
+    valueLabel: ''
+    unit: ''
+    numberType: real
+    minimum: 13.4902
+    maximum: 4618.86825
+    columnClasses: numeric

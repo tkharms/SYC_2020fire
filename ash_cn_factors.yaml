@@ -1,0 +1,19 @@
+|
+  - attribute:
+      attributeName: site
+      levels:
+      - code: PC
+        definition: metadata_not_provided
+      - code: RV
+        definition: 'Round Valley'
+      - code: RV/SS
+        definition: metadata_not_provided
+  - attribute:
+      attributeName: rep
+      levels:
+      - code: '1'
+        definition: 'experiment replicate 1'
+      - code: '2'
+        definition: 'experiment replicate 2'
+      - code: '3'
+        definition: 'experiment replicate 3'
