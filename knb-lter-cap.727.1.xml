@@ -52,8 +52,8 @@
     <language>english</language>
     <abstract>
       <markdown>
-In 2020 the Bush Fire burned approximately half of the Sycamore Creek watershed in central Arizona. Sycamore Creek has been subject to &gt;40 years of research and the stream has been monitored by NEON since 2017. We studied the effects of fire on biogeochemistry of the stream and its watershed. We deployed autosamplers to monitor stream chemistry during storms on the mainstem and in ephemeral tributaries draining burned and unburned watersheds. The storm sampling program commenced nearly a year following the fire because absence of summer monsoon or winter storms in 2020-21 resulted in no flow in tributaries and intermittent flow in the mainstem. Water chemistry was measured during 14 monsoon storms of 2021 and winter frontal storms of 2021-22 with samples of baseflow collected in the mainstem during intervening periods. Water samples were analyzed for dissolved organic carbon, nitrogen, phosphorus, and major anions and cations. We also measured nutrient content of ash and chemistry of ash leachate as a potential source of solutes to stream biota. 
-</markdown>
+        In 2020 the Bush Fire burned approximately half of the Sycamore Creek watershed in central Arizona. Sycamore Creek has been subject to &gt;40 years of research and the stream has been monitored by NEON since 2017. We studied the effects of fire on biogeochemistry of the stream and its watershed. We deployed autosamplers to monitor stream chemistry during storms on the mainstem and in ephemeral tributaries draining burned and unburned watersheds. The storm sampling program commenced nearly a year following the fire because absence of summer monsoon or winter storms in 2020-21 resulted in no flow in tributaries and intermittent flow in the mainstem. Water chemistry was measured during 14 monsoon storms of 2021 and winter frontal storms of 2021-22 with samples of baseflow collected in the mainstem during intervening periods. Water samples were analyzed for dissolved organic carbon, nitrogen, phosphorus, and major anions and cations. We also measured nutrient content of ash and chemistry of ash leachate as a potential source of solutes to stream biota. 
+      </markdown>
     </abstract>
     <keywordSet>
       <keyword keywordType="theme">stream</keyword>
@@ -168,31 +168,31 @@ In 2020 the Bush Fire burned approximately half of the Sycamore Creek watershed 
       <methodStep>
         <description>
           <markdown>
-## ash
+            ## ash
 
-We measured the chemistry of ash collected from the Sycamore Creek watershed. Ash was collected manually at varying distances from stream channels. Total carbon and nitrogen were measured on a Perkin-Elmer elemental analyzer. We measured leachable concentrations of dissolved organic carbon, total dissolved nitrogen, total dissolved phosphorus and major anions and cations using the analytical methods described for stream water samples. Leachates were prepared by shaking 1 mg of ash in 50 mL of ultrapure water. Leachates were filtered through 0.7 μm glass fiber filters prior to analysis. We measured lability of dissolved organic carbon in leachates as change in concentration following 21 days of incubation. Water was filtered to 0.2 μm and a microbial inoculum was added. Samples were incubated in the dark at room temperature.
+            We measured the chemistry of ash collected from the Sycamore Creek watershed. Ash was collected manually at varying distances from stream channels. Total carbon and nitrogen were measured on a Perkin-Elmer elemental analyzer. We measured leachable concentrations of dissolved organic carbon, total dissolved nitrogen, total dissolved phosphorus and major anions and cations using the analytical methods described for stream water samples. Leachates were prepared by shaking 1 mg of ash in 50 mL of ultrapure water. Leachates were filtered through 0.7 μm glass fiber filters prior to analysis. We measured lability of dissolved organic carbon in leachates as change in concentration following 21 days of incubation. Water was filtered to 0.2 μm and a microbial inoculum was added. Samples were incubated in the dark at room temperature.
 
-## stream chemistry
+            ## stream chemistry
 
-Water was collected by autosamplers during storms and manually during baseflow. Grab samples were filtered upon collection and samples collected by autosamplers were retrieved within 24 h and filtered in the laboratory (maximum pore size 0.7 μm, glass fiber filters). Water was then frozen until analysis. Samples were analyzed for dissolved organic carbon and total dissolved nitrogen via non-dispersive infrared gas analysis and chemiluminescence, respectively, on a Shimadzu TOC/TN-L. Concentrations of major anions and cations were analyzed via ion chromatography on a Thermo ion chromatograph with AS-11 columns for anions and CS-16 columns for cations. Soluble reactive phosphorus was measured colorimetrically using the molybdate method on a Lachat autoanalyzer and total dissolved phosphorus was measured by the same method following acid-persulfate digestion. Ammonium was measured colorimetrically on a subset of samples using the phenol hypochlorite method using a Lachat autoanalyzer, and was additionally measured by ion chromatography. For all analyses, measured concentrations less than the lowest value used in calibration were replaced with half of the limit of quantitation for each analyte (shown below).
+            Water was collected by autosamplers during storms and manually during baseflow. Grab samples were filtered upon collection and samples collected by autosamplers were retrieved within 24 h and filtered in the laboratory (maximum pore size 0.7 μm, glass fiber filters). Water was then frozen until analysis. Samples were analyzed for dissolved organic carbon and total dissolved nitrogen via non-dispersive infrared gas analysis and chemiluminescence, respectively, on a Shimadzu TOC/TN-L. Concentrations of major anions and cations were analyzed via ion chromatography on a Thermo ion chromatograph with AS-11 columns for anions and CS-16 columns for cations. Soluble reactive phosphorus was measured colorimetrically using the molybdate method on a Lachat autoanalyzer and total dissolved phosphorus was measured by the same method following acid-persulfate digestion. Ammonium was measured colorimetrically on a subset of samples using the phenol hypochlorite method using a Lachat autoanalyzer, and was additionally measured by ion chromatography. For all analyses, measured concentrations less than the lowest value used in calibration were replaced with half of the limit of quantitation for each analyte (shown below).
 
-| Analyte                     | Limit of Quantitation (μM) |
-|----------------------------|-----------------------------|
-| ammonium                   | 0.132                       |
-| bromide                    | 0.134                       |
-| calcium                    | 0.46                        |
-| dissolved organic carbon   | 8.8                         |
-| chloride                   | 0.952                       |
-| fluoride                   | 0.198                       |
-| magnesium                  | 0.1                         |
-| nitrate                    | 0.118                       |
-| total dissolved nitrogen   | 1.938                       |
-| soluble reactive phosphorus| 0.05                        |
-| potassium                  | 0.2                         |
-| sodium                     | 0.204                       |
-| sulfate                    | 0.314                       |
+            | Analyte                     | Limit of Quantitation (μM) |
+            |----------------------------|-----------------------------|
+            | ammonium                   | 0.132                       |
+            | bromide                    | 0.134                       |
+            | calcium                    | 0.46                        |
+            | dissolved organic carbon   | 8.8                         |
+            | chloride                   | 0.952                       |
+            | fluoride                   | 0.198                       |
+            | magnesium                  | 0.1                         |
+            | nitrate                    | 0.118                       |
+            | total dissolved nitrogen   | 1.938                       |
+            | soluble reactive phosphorus| 0.05                        |
+            | potassium                  | 0.2                         |
+            | sodium                     | 0.204                       |
+            | sulfate                    | 0.314                       |
 
-</markdown>
+          </markdown>
         </description>
       </methodStep>
     </methods>
@@ -251,12 +251,12 @@ Water was collected by autosamplers during storms and manually during baseflow. 
       </personnel>
       <abstract>Humankind is increasingly an urban species and urban ecosystems are therefore profoundly important. Cities are concentrated consumers of energy and resources and producers of various wastes, but they are also centers of social networks, innovation, efficiency, and solutions. The Central Arizona?Phoenix Long Term Ecological Research program (CAP V) is a research project that includes scientists from a variety of disciplines focused on understanding cities as hybrid ecosystems including both environmental and human components, and their interactions. Understanding urban ecosystems remains the central focus of CAP V after 25 years of innovative research. The interconnectedness of human motivation, behavior, actions, and outcomes with urban ecosystem structure and function leads to a fundamental question addressed by this project. How have/are human-environment interactions mediated by urban ecological infrastructure to shape past, present, and future ecosystem functions? This project will further indicate how we can use knowledge of these relationships to inform more just, transformative, and sustainable futures. Broader societal impacts are intentionally integrated in CAP V research, with many activities involving explicit partnerships with practitioners and communities that historically have had little voice in the future of their city and environment. This work forms a translational link among social-ecological research outcomes, city institutions, and communities with the goal of ultimately making Phoenix, and cities in general, better and more sustainable places to live.
 
-  CAP research will extend its focus on the theory of Urban Ecological Infrastructure (UEI) as a critical bridge between the system?s biophysical and human/social domains. CAP researchers will continue to explore interdisciplinary urban ecology in residential landscapes, urban waterbodies, desert parks and preserves, while examining the plants, animals, climate, urban design and governance across the metropolitan Phoenix region. New research initiatives will include a focus on environmental justice and equity, as well as urban air quality. The research will develop both knowledge and solutions in underserved and historically neglected communities, including local Indigenous communities. CAP V research is organized around five interdisciplinary areas: 1) ecosystem structure and function and biogeochemical cycling; 2) adaptation and eco-evolutionary dynamics; 3) urban climate, and air quality; 4) urban nature and human perceptions, decisions, and wellbeing; and 5) environmental justice, governance, and transformative futures. Investigating these questions, in the context of the previous 25 years of CAP research, will guide the CAP research endeavor towards more sustainable and resilient futures for U.S. cities and for our increasingly urban society.
+        CAP research will extend its focus on the theory of Urban Ecological Infrastructure (UEI) as a critical bridge between the system?s biophysical and human/social domains. CAP researchers will continue to explore interdisciplinary urban ecology in residential landscapes, urban waterbodies, desert parks and preserves, while examining the plants, animals, climate, urban design and governance across the metropolitan Phoenix region. New research initiatives will include a focus on environmental justice and equity, as well as urban air quality. The research will develop both knowledge and solutions in underserved and historically neglected communities, including local Indigenous communities. CAP V research is organized around five interdisciplinary areas: 1) ecosystem structure and function and biogeochemical cycling; 2) adaptation and eco-evolutionary dynamics; 3) urban climate, and air quality; 4) urban nature and human perceptions, decisions, and wellbeing; and 5) environmental justice, governance, and transformative futures. Investigating these questions, in the context of the previous 25 years of CAP research, will guide the CAP research endeavor towards more sustainable and resilient futures for U.S. cities and for our increasingly urban society.
 
-  This award is jointly funded by the Division of Environmental Biology and the Division of Behavioral and Cognitive Sciences.
+        This award is jointly funded by the Division of Environmental Biology and the Division of Behavioral and Cognitive Sciences.
 
-  This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.
-  </abstract>
+        This award reflects NSF's statutory mission and has been deemed worthy of support through evaluation using the Foundation's intellectual merit and broader impacts review criteria.
+      </abstract>
       <funding>NSF Awards: CAP I: DEB-9714833, CAP II: DEB-0423704, CAP III: DEB-1026865, CAP IV: DEB-1832016, CAP V: DEB-2224662</funding>
       <award>
         <funderName>National Science Foundation</funderName>
@@ -265,6 +265,47 @@ Water was collected by autosamplers during storms and manually during baseflow. 
         <title>LTER: CAP V: Investigating how relationships between urban ecological infrastructure and human-environment interactions shape the structure and function of urban ecosystems</title>
         <awardUrl>https://www.nsf.gov/awardsearch/showAward?AWD_ID=2224662&amp;HistoricalAwards=false</awardUrl>
       </award>
+      <relatedProject>
+        <title>RAPID: Indirect impacts of a novel wildfire on a well-studied desert stream: connectivity, carbon, and communities.</title>
+        <personnel>
+          <individualName>
+            <givenName>Nancy</givenName>
+            <surName>Grimm</surName>
+          </individualName>
+          <organizationName>Arizona State University</organizationName>
+          <electronicMailAddress>nbgrimm@asu.edu</electronicMailAddress>
+          <userId directory="https://orcid.org">0000-0001-9374-660X</userId>
+          <role>Principal Investigator</role>
+        </personnel>
+        <personnel>
+          <individualName>
+            <givenName>Tamara</givenName>
+            <surName>Harms</surName>
+          </individualName>
+          <organizationName>University of California at Riverside</organizationName>
+          <electronicMailAddress>tharms@ucr.edu</electronicMailAddress>
+          <userId directory="https://orcid.org">0000-0001-7845-1109</userId>
+          <role>Co-principal Investigator</role>
+        </personnel>
+        <personnel>
+          <individualName>
+            <givenName>Michael</givenName>
+            <surName>Bogan</surName>
+          </individualName>
+          <organizationName>University of Arizona</organizationName>
+          <electronicMailAddress>mbogan@arizona.edu</electronicMailAddress>
+          <userId directory="https://orcid.org">0000-0002-8150-8476</userId>
+          <role>Co-principal Investigator</role>
+        </personnel>
+        <funding>NSF Awards: 2040194, 2135491, 2220497</funding>
+        <award>
+          <funderName>National Science Foundation</funderName>
+          <funderIdentifier>https://ror.org/021nxhr62</funderIdentifier>
+          <awardNumber>2040194</awardNumber>
+          <title>RAPID: Indirect impacts of a novel wildfire on a well-studied desert stream: connectivity, carbon, and communities.</title>
+          <awardUrl></awardUrl>
+        </award>
+      </relatedProject>
     </project>
     <dataTable id="727_syc_fire_stream_chemistry.csv">
       <entityName>727_syc_fire_stream_chemistry.csv</entityName>
